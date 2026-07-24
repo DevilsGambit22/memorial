@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#060606">
+  <title>In Loving Memory of Brandon | BR4ndonv</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="moon"></div>
+    <div class="cathedral"></div>
+    <div class="light-rays"></div>
+    <div class="mist mist-one"></div>
+    <div class="mist mist-two"></div>
+    <div id="embers" class="embers"></div>
+    <div id="feathers" class="feathers"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <button id="audioFallback" class="audio-fallback" type="button" hidden>
+    Enable Memorial Audio
+  </button>
+
+  <main class="memorial">
+    <header class="hero reveal">
+      <div class="memorial-symbol" aria-hidden="true">✦</div>
+      <p class="eyebrow">Forever Remembered</p>
+      <h1>In Loving Memory of Brandon</h1>
+
+      <a
+        class="username"
+        href="https://www.chess.com/member/br4ndonv"
+        target="_blank"
+        rel="noopener noreferrer"
+      >BR4ndonv</a>
+
+      <a
+        class="portrait-frame"
+        href="https://www.chess.com/member/br4ndonv"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open BR4ndonv's Chess.com profile"
+      >
+        <span class="frame-glow"></span>
+        <img src="assets/brandon-portrait.jpg" alt="Memorial portrait of Brandon">
+      </a>
+
+      <p class="memorial-line">The game may end. The memory remains.</p>
+      <div class="gold-divider" aria-hidden="true"><span>♟</span></div>
+    </header>
+
+    <section class="stone-panel reveal">
+      <p class="eyebrow">A Life Remembered</p>
+      <h2>Brandon</h2>
+      <p>
+        This memorial stands in honor of Brandon, known on Chess.com as
+        <strong>BR4ndonv</strong>. His memory continues through the lives he
+        touched, the moments he shared, and the friendship that remains.
+      </p>
+    </section>
+
+    <section class="memory-hall reveal">
+      <div class="pillar pillar-left" aria-hidden="true"></div>
+      <div class="memory-content">
+        <p class="eyebrow">A Friendship That Endures</p>
+        <h2>Never Forgotten</h2>
+        <p>
+          Some people leave behind more than memories. They leave a presence
+          that continues to shape the people who loved them. Brandon remains
+          part of every story, every lesson, and every quiet moment in which he
+          is remembered.
+        </p>
+      </div>
+      <div class="pillar pillar-right" aria-hidden="true"></div>
+    </section>
+
+    <section class="monument reveal">
+      <div class="candles" aria-hidden="true">
+        <span class="candle candle-one"><i></i></span>
+        <span class="candle candle-two"><i></i></span>
+        <span class="candle candle-three"><i></i></span>
+        <span class="candle candle-four"><i></i></span>
+      </div>
+
+      <div class="monument-stone">
+        <p class="eyebrow">Forever in Memory</p>
+        <h2>BR4ndonv</h2>
+        <p class="inscription">
+          The game may end.<br>
+          The memory remains.
+        </p>
+      </div>
+    </section>
+
+    <footer class="reveal">
+      <p>In loving memory of Brandon.</p>
+    </footer>
+  </main>
+
+  <audio id="memorialAudio" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
