@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#060606">
+  <title>In Loving Memory of Brandon | BR4ndonv</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="moon"></div>
+    <div class="cathedral"></div>
+    <div class="mist mist-one"></div>
+    <div class="mist mist-two"></div>
+    <div id="embers" class="embers"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <button id="audioFallback" class="audio-fallback" type="button" hidden>
+    Enable Memorial Audio
+  </button>
+
+  <main class="memorial">
+    <header class="hero reveal">
+      <div class="crest" aria-hidden="true">
+        <span>♔</span>
+      </div>
+      <p class="eyebrow">Forever Remembered</p>
+      <h1>In Loving Memory of Brandon</h1>
+      <a
+        class="username"
+        href="https://www.chess.com/member/br4ndonv"
+        target="_blank"
+        rel="noopener noreferrer"
+      >BR4ndonv</a>
+
+      <a
+        class="portrait-frame"
+        href="https://www.chess.com/member/br4ndonv"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open BR4ndonv's Chess.com profile"
+      >
+        <span class="frame-glow"></span>
+        <img src="assets/brandon-portrait.jpg" alt="Memorial portrait of Brandon">
+      </a>
+
+      <p class="memorial-line">The game may end. The memory remains.</p>
+      <div class="gold-divider" aria-hidden="true"><span>♟</span></div>
+    </header>
+
+    <section class="stone-panel reveal">
+      <p class="eyebrow">A Life Remembered</p>
+      <h2>His Memory Lives On</h2>
+      <p>
+        Brandon's memory lives through the friendship, community, and welcoming
+        spirit that inspired the creation of <strong>And Chess For All</strong>.
+      </p>
+    </section>
+
+    <section class="legacy reveal">
+      <div class="pillar pillar-left" aria-hidden="true"></div>
+      <div class="legacy-content">
+        <p class="eyebrow">The Legacy of BR4ndonv</p>
+        <h2>And Chess For All</h2>
+        <p>
+          What began in remembrance continues through every player welcomed,
+          every friendship formed, and every move shared across the board.
+        </p>
+        <div class="motto">Every Player Belongs • Every Move Matters</div>
+      </div>
+      <div class="pillar pillar-right" aria-hidden="true"></div>
+    </section>
+
+    <section class="eternal-board reveal" aria-label="Eternal chessboard memorial">
+      <div class="board-wrap">
+        <div id="chessboard" class="chessboard" aria-hidden="true"></div>
+        <div class="gold-king" aria-hidden="true">♔</div>
+      </div>
+      <p>Forever present across the board.</p>
+    </section>
+
+    <footer class="reveal">
+      <div class="seal">ACFA</div>
+      <p>In memory of Brandon — BR4ndonv</p>
+    </footer>
+  </main>
+
+  <audio id="memorialAudio" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
